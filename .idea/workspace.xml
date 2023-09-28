@@ -4,8 +4,247 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a869e8-70d4-4259-8cce-5a0e80fc94fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="54a869e8-70d4-4259-8cce-5a0e80fc94fe" name="Changes" comment="mn">
+      <change beforePath="$PROJECT_DIR$/325/CS325_AI_SearchProblem_Part1-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/autograder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/eightpuzzle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/ghostAgents.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/grading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/graphicsDisplay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/graphicsUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/keyboardAgents.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/bigCorners.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/bigMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/bigSafeSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/bigSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/boxSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/capsuleClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/contestClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/contoursMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/greedySearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/mediumClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/mediumCorners.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/mediumDottedMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/mediumMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/mediumSafeSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/mediumScaryMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/mediumSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/minimaxClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/oddSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/openClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/openMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/openSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/originalClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/powerClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/smallClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/smallMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/smallSafeSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/smallSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/testClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/testMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/testSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/tinyCorners.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/tinyMaze.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/tinySafeSearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/tinySearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/trappedClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/trickyClassic.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/layouts/trickySearch.lay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/pacman.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/pacmanAgents.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/projectParams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/searchAgents.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/searchTestClasses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/testClasses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/testParser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/graph_backtrack.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/graph_backtrack.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/graph_bfs_vs_dfs.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/graph_bfs_vs_dfs.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/graph_infinite.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/graph_infinite.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/graph_manypaths.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/graph_manypaths.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/pacman_1.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q1/pacman_1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/graph_backtrack.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/graph_backtrack.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/graph_bfs_vs_dfs.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/graph_bfs_vs_dfs.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/graph_infinite.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/graph_infinite.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/graph_manypaths.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/graph_manypaths.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/pacman_1.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q2/pacman_1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/graph_backtrack.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/graph_backtrack.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/graph_bfs_vs_dfs.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/graph_bfs_vs_dfs.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/graph_infinite.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/graph_infinite.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/graph_manypaths.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/graph_manypaths.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_0_graph.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_0_graph.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_1_problemC.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_1_problemC.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_2_problemE.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_2_problemE.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_3_problemW.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_3_problemW.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_4_testSearch.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_4_testSearch.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_5_goalAtDequeue.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q3/ucs_5_goalAtDequeue.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/astar_0.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/astar_0.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/astar_1_graph_heuristic.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/astar_1_graph_heuristic.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/astar_2_manhattan.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/astar_2_manhattan.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/astar_3_goalAtDequeue.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/astar_3_goalAtDequeue.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/graph_backtrack.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/graph_backtrack.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/graph_manypaths.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q4/graph_manypaths.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q5/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q5/corner_tiny_corner.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q5/corner_tiny_corner.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/corner_sanity_1.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/corner_sanity_1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/corner_sanity_2.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/corner_sanity_2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/corner_sanity_3.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/corner_sanity_3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/medium_corners.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q6/medium_corners.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_1.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_10.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_10.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_11.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_11.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_12.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_12.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_13.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_13.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_14.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_14.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_15.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_15.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_16.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_16.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_17.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_17.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_2.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_3.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_4.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_4.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_5.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_5.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_6.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_6.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_7.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_7.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_8.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_8.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_9.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_9.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_grade_tricky.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q7/food_heuristic_grade_tricky.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_1.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_10.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_10.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_11.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_11.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_12.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_12.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_13.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_13.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_2.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_3.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_4.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_4.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_5.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_5.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_6.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_6.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_7.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_7.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_8.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_8.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_9.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/test_cases/q8/closest_dot_9.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/textDisplay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/HW1/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/Rational_Agent.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/autograding.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/python-basics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/python_basics/foreach.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/python_basics/helloWorld.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/python_basics/listcomp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/python_basics/listcomp2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/python_basics/quickSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/python_basics/shop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/python_basics/shopTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/questions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/addition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/autograder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/buyLotsOfFruit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/grading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/projectParams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/shop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/shopAroundTown.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/shopSmart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/testClasses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/testParser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q1/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q1/addition1.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q1/addition1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q1/addition2.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q1/addition2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q1/addition3.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q1/addition3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q2/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q2/food_price1.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q2/food_price1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q2/food_price2.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q2/food_price2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q2/food_price3.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q2/food_price3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q3/CONFIG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q3/select_shop1.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q3/select_shop1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q3/select_shop2.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q3/select_shop2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q3/select_shop3.solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/test_cases/q3/select_shop3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/textDisplay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/town.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/tutorialTestClasses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/325/hw/tutorial/util.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,27 +263,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhenyanli/PycharmProjects/CS325/325/hw&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/zhenyanli/PycharmProjects/CS325/325/hw",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/325/hw" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/325/hw" />
       <recent name="$PROJECT_DIR$/325" />
+      <recent name="$PROJECT_DIR$/325/hw" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -87,11 +327,49 @@
       <workItem from="1694280336953" duration="174000" />
       <workItem from="1694280515687" duration="766000" />
       <workItem from="1695862471314" duration="530000" />
+      <workItem from="1695863047733" duration="1097000" />
     </task>
+    <task id="LOCAL-00001" summary="mn">
+      <created>1695863124344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695863124344</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mn">
+      <created>1695863275192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695863275192</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mn">
+      <created>1695863305455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695863305455</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mn" />
+    <option name="LAST_COMMIT_MESSAGE" value="mn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -107,8 +385,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CS325$testParser.coverage" NAME="testParser Coverage Results" MODIFIED="1695862901902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/325/hw1" />
     <SUITE FILE_PATH="coverage/CS325$autograder.coverage" NAME="autograder Coverage Results" MODIFIED="1694280609883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/325/hw/tutorial" />
-    <SUITE FILE_PATH="coverage/CS325$main.coverage" NAME="main Coverage Results" MODIFIED="1694280602034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS325$main.coverage" NAME="main Coverage Results" MODIFIED="1695863081208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS325$helloWorld.coverage" NAME="helloWorld Coverage Results" MODIFIED="1694102466075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/325/hw/python_basics" />
+    <SUITE FILE_PATH="coverage/CS325$foreach.coverage" NAME="foreach Coverage Results" MODIFIED="1695863091941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/325/hw/hw/python_basics" />
     <SUITE FILE_PATH="coverage/CS325$search.coverage" NAME="search Coverage Results" MODIFIED="1695862857909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/325/hw1" />
   </component>
 </project>
