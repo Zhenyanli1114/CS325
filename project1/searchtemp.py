@@ -1,13 +1,10 @@
-# THIS CODE IS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING
-# A TUTOR OR CODE WRITTEN BY OTHER STUDENTS
-# - Zhenyan Li
 # search.py
 # ---------
 # Licensing Information:  You are free to use or extend these projects for
 # educational purposes provided that (1) you do not distribute or publish
 # solutions, (2) you retain this notice, and (3) you provide clear
 # attribution to UC Berkeley, including a link to http://ai.berkeley.edu.
-#
+# 
 # Attribution Information: The Pacman AI projects were developed at UC Berkeley.
 # The core projects and autograders were primarily created by John DeNero
 # (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
@@ -75,15 +72,6 @@ def tinyMazeSearch(problem):
     w = Directions.WEST
     return  [s, s, w, s, w, w, s, w]
 
-class Node:#自己加的
-    def __init__(self, state, pred, action, priority=0):
-        self.state = state
-        self.pred = pred
-        self.action = action
-        self.priority = priority
-    def __repr__(self):
-        return "State: {0}, Action: {1}".format(self.state, self.action)
-
 def depthFirstSearch(problem):
     """
     Search the deepest nodes in the search tree first.
@@ -99,75 +87,18 @@ def depthFirstSearch(problem):
     print("Start's successors:", problem.getSuccessors(problem.getStartState()))
     """
     "*** YOUR CODE HERE ***"
-    c = set()
-    fr = util.Stack()
-    fr.push(Node(problem.getStartState(), None, None))
-
-    while not fr.isEmpty():
-        node = fr.pop()
-        if problem.isGoalState(node.state):
-            return dfshelp(node)
-        if node.state not in c:
-            c.add(node.state)
-            for successor, action, _ in problem.getSuccessors(node.state):
-                fr.push(Node(successor, node, action))
-
-    return []
-
-def dfshelp(node):
-    actions = []
-    while node.action is not None:
-        actions.append(node.action)
-        node = node.pred
-    actions.reverse()
-    return actions
+    util.raiseNotDefined()
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    fr = util.Queue()
-    fr.push(Node(problem.getStartState(), None, None))
-    c = set()
-
-    while not fr.isEmpty():
-        node = fr.pop()
-        if problem.isGoalState(node.state):
-            actions = []
-            while node.action:
-                actions.append(node.action)
-                node = node.pred
-            return actions[::-1]
-        if node.state not in c:
-            c.add(node.state)
-            for successor, action, _ in problem.getSuccessors(node.state):
-                fr.push(Node(successor, node, action))
-
-    return []
+    util.raiseNotDefined()
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
+    util.raiseNotDefined()
 
-    c = set()
-    p = util.PriorityQueue()
-    p.push(Node(problem.getStartState(), None, None, 0), 0)
-
-    while not p.isEmpty():
-        node = p.pop()
-        if problem.isGoalState(node.state):
-            actions = []
-            current = node
-            while current.action:
-                actions.append(current.action)
-                current = current.pred
-            return actions[::-1]  # reverse list using slicing
-        if node.state not in c:
-            c.add(node.state)
-            for successor, action, cost in problem.getSuccessors(node.state):
-                newcost = node.priority + cost
-                p.push(Node(successor, node, action, newcost), newcost)
-
-    return []
 def nullHeuristic(state, problem=None):
     """
     A heuristic function estimates the cost from the current state to the nearest
@@ -178,28 +109,7 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    c = set()
-    fr = util.PriorityQueue()
-    start_state = problem.getStartState()
-    start_priority = heuristic(start_state, problem)
-    fr.push(Node(start_state, None, None, start_priority), start_priority)
-
-    while not fr.isEmpty():
-        node = fr.pop()
-        if problem.isGoalState(node.state):
-            actions = []
-            current = node
-            while current.action:
-                actions.append(current.action)
-                current = current.pred
-            return actions[::-1]
-        if node.state not in c:
-            c.add(node.state)
-            for successor, action, cost in problem.getSuccessors(node.state):
-                newcost = node.priority + cost
-                total_cost = newcost + heuristic(successor, problem)
-                fr.push(Node(successor, node, action, newcost), total_cost)
-    return []
+    util.raiseNotDefined()
 
 
 # Abbreviations
